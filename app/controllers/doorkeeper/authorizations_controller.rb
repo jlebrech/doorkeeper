@@ -16,6 +16,7 @@ module Doorkeeper
     end
 
     def show
+      render :json => params.to_json
     end
 
     # TODO: Handle raise invalid authorization
